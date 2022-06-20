@@ -1,0 +1,52 @@
+.game-clkr {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(250, 181, 32); 
+    border-radius: 10px;
+}
+
+.game-display {
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    font-family: 'Qahiri';
+    font-size: 40px;
+    text-align: center;
+    top: 100px;
+    left: 50px;
+}
+
+.game-button-hitter {
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(7, 160, 19);
+    color: rgb(250, 181, 32);
+    font-family: 'Qahiri';
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+.game-button-hitter:hover {
+    color: #000;
+}
+
+.game-button-hitter:active {
+    color: rgb(255, 255, 255);
+}
+
+.game-counter {
+    width: 80px;
+    height: 50px;
+    color: rgb(7, 160, 19);
+    font-family: 'Qahiri';
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 160px;
+}
